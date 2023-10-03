@@ -14,7 +14,7 @@ body {
     position: relative;
 }
 
-#iphone {
+iframe {
     position: absolute;
     height: 630px;
     width: 310px;
@@ -23,10 +23,19 @@ body {
 
 }
 
-img {
+#iphoneimg {
     position: absolute;
     height: 472px;
     width: 268px;
     top: 20vh;
     left: 40.5vw;
+}
+#logo {
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    height: 50px;
+    width: 50px;
+    left: 95.7%;
+    margin-top: 20px;
 }
