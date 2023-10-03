@@ -4,32 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        img {
-            display: block;
-            margin: auto;
+        * {
+            margin: 0%;
+            padding: 0%;
         }
-        p {
-            display: block;
-            margin: auto;
+
+        html, body {
+            width: 100vw;
+            height: 100vh;
+        }
+
+        main {
+            height: 100vh;
+            width: 100vw;
+            background-image: url(imagens/tela-youtube.png);
+            background-attachment: scroll;
+            background-size: cover;
+        }
+
+        footer {
             background-color: red;
-            height: 80px;
-            width: 600px;
+            text-align: center;
+            padding: 10px;
         }
+
         a {
-            display: block;
             font-family: Arial, Helvetica, sans-serif;
             font-size: 30px;
             color: white;
             text-decoration: none;
             text-align: center;
-            padding-top: 20px;
+            padding-top: 10px;
         }
     </style>
 </head>
 <body>
-    <div><img src="imagens/tela-youtube.png" alt="">
-        <p><a href="https://www.youtube.com/">Acesse</a></p>
-    </div>
+    <main></main>
+<footer>
+    <p><a href="https://www.youtube.com/" target="_blank">Acesse</a></p>
+</footer>
 
 </body>
 </html>
