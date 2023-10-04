@@ -40,21 +40,22 @@ iframe {
     left: 21px;
 }
 
-
-#logo {
-    position: relative;
-    display: block;
-    border-radius: 50%;
-    height: 50px;
-    width: 50px;
-    left: 95.7%;
-    box-shadow: 3px 0px 6px 1px rgba(0, 0, 0, 0.295);
+#redessociais{
+    text-align: right;
 }
 
-#logo:hover {
+#logo {
+    border-radius: 50%;
+    box-shadow: 3px 0px 6px 1px rgba(0, 0, 0, 0.295);
+    box-sizing: border-box;
+    width: 50px;
+    margin: 10px;
     
 }
 
-li {
-    padding-top: 20px;
+section#redessociais img:hover {
+     border: 2px solid white;
+     transform: translate(-3px, -3px);
+     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.61);
+     transition: transform .4s, border .1s;
 }
